@@ -7,7 +7,7 @@
  
  
 colony = peripheral.find("colonyIntegrator")
-mon = peripheral.wrap("left")
+mon = peripheral.find("monitor")
 chat = peripheral.find("chatBox")
  
 function centerText(text, line, txtback, txtcolor, pos)
