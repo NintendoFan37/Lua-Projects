@@ -9,6 +9,12 @@
 colony = peripheral.find("colonyIntegrator")
 mon = peripheral.find("monitor")
 chat = peripheral.find("chatBox")
+
+--- Emojis!
+local face = "\2"
+local arrow = "\6"
+local music = "\15"
+local yen = "\1"
  
 function centerText(text, line, txtback, txtcolor, pos)
     monX, monY = mon.getSize()
